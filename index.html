@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<main>
+<body>
+    <h1>Simulador de Financiamento</h1>
+
+    <div>
+        <label for ="valor">Valor</label>
+        <input id="valor" type="number" value="200000"><br />
+        <label for="Prazo">Prazo</label>
+        <input id="prazo" type="number"  value="20"><br />
+        <label for="jurosaa">Juros ao ano</label>
+        <input id="jurosaa" type= "number" value="0.08"/>
+        <button onclick="simular()">Simular</button>
+    </div>
+    <div>
+        <h2>Resultados</h2>
+        <label for="prestacoes">Prazo(meses):</label>
+        <input id="prestacoes" type="number"  readonly><br />
+        <label for="jurosam">Juros ao mês:</label>
+        <input id="jurosam" type="number" readonly><br />
+        <label for="jurostotal">Juros acumulado:</label>
+        <input id="jurostotal" type="number" readonly><br />
+        <table>
+            <thead>
+                <tr>
+                    <td>Prestação</td>
+                    <td>Amortização</td>
+                    <td>Juros</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

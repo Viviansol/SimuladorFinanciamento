@@ -1,0 +1,33 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1, h2, th{
+    color: aqua
+}
+
+body{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    padding: 1rem;
+    background-color: white;
+    max-width: 600px;
+
+}
+table{
+    width: 100px;
+    margin: 1rem;
+    border-collapse: collapse;
+}
+
+td, th{
+ padding: 5px;
+ border: 1px solid black;
+ text-align: center;
+}
